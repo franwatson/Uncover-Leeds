@@ -6,7 +6,7 @@
 initial-scale=1.0">
        <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
        <script src="/assets/jquery.js"></script>
-       <title>Uncover Leeds</title>
+       <title>Uncover Leeds Nights Out</title>
        <link rel="stylesheet" type="text/css" href="leedsstyle.css">
     </head>
      <body>
@@ -21,5 +21,6 @@ initial-scale=1.0">
         <li><a href="#">Contact</a></li>
       </ul>
 </header>
-
+<p>
+</p>
 </body>
