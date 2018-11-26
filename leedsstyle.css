@@ -11,13 +11,15 @@ a {
   color: white;
 }
 h1 {
+  position: relative;
   text-align: center;
   color: white;
   margin: 0 auto;
-  padding: 80px;
+  padding: 20px;
   font-family: 'Raleway', sans-serif;
   font-size: 100px;
   font-weight: lighter;
+  background-image: "leedsmarket.jpg";
   }
   li {
     padding: 20px 30px 20px 30px;
@@ -37,6 +39,14 @@ ul {
 a {
   color: white;
 }
+
+
+.carousel {
+  background-position: center;
+  background-size: center;
+}
+
+
 @media (max-width: 800px) {
   h1 {
     font-size: 65px

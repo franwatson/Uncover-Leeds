@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery boxSlider: Sliding Overlay Demos</title>
+
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/boxSlider.css">
+    <link rel="stylesheet" href="css/demo.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- Box Slider Plugin -->
+    <script src="js/boxSlider.js"></script>
+    <style>
+    h1 { margin:150px auto 50px auto;}
+    .image-demo { height:450px; width:600px; background-image:url(https://picsum.photos/600/450/?random);}
+    .clear { clear:both}
+    </style>
+
+</head>
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="https://www.jqueryscript.net/animation/Sliding-Overlay-Plugin-jQuery-boxSlider.html">Download This Plugin</a></li>
+<li><a href="https://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+    <h1>jQuery boxSlider: Sliding Overlay Demos</h1>
+    <div class="box-left"><span>Hover for Left Sliding</span></div>
+    <div class="box-down"><span>Hover for Down Sliding</span></div>
+    <div class="box-right"><span>Hover for Right Sliding</span></div>
+    <div class="box-up"><span>Hover for up Sliding</span></div>
+
+    <br>
+    <br>
+
+    <!-- Style 1 -->
+
+    
+    <div class="box-left-1"></div>
+    <div class="box-down-1"></div>
+    <div class="box-right-1"></div>
+    <div class="box-up-1"></div>
+
+
+    <br>
+    <br>
+
+    <!-- Style 2 -->
+
+    
+    <div class="box-left-2"></div>
+    <div class="box-down-2"></div>
+    <div class="box-right-2"></div>
+    <div class="box-up-2"></div>
+    <div class="clear"></div>
+<div class="image-demo"></div>
+
+    <script>
+
+        $(document).ready(function(){
+
+            // $("your element").up-down-left-right-bottom Slide(with your desired color);
+
+
+            // Default Style
+            $(".box-left").leftSlideDefault("yellow", "Click Me"); //for Left Sliding
+            $(".box-down").downSlideDefault("yellow", "Click Me"); //for Down Sliding
+            $(".box-right").rightSlideDefault("yellow", "Click Me"); //for Right Sliding
+            $(".box-up").upSlideDefault("yellow", "Click Me"); //for Up Sliding
+
+            // Style-1
+            $(".box-left-1").leftSlideStyle1("blue", "Click Me"); //for Left Sliding
+            $(".box-down-1").downSlideStyle1("blue", "Click Me"); //for Down Sliding
+            $(".box-right-1").rightSlideStyle1("blue", "Click Me"); //for Right Sliding
+            $(".box-up-1").upSlideStyle1("blue", "Click Me"); //for Up Sliding
+
+            // Style-2
+            $(".box-left-2").leftSlideStyle2("green", "Click Me"); //for Left Sliding
+            $(".box-down-2").downSlideStyle2("green", "Click Me"); //for Down Sliding
+            $(".box-right-2").rightSlideStyle2("green", "Click Me"); //for Right Sliding
+            $(".box-up-2").upSlideStyle2("green", "Click Me"); //for Up Sliding
+$(".image-demo").leftSlideDefault("#FC6D58", "Read More");
+
+        });
+
+    </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
