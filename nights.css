@@ -1,0 +1,129 @@
+body {
+  margin: 0 auto;
+  background-color: black;
+}
+header {
+  text-align: center;
+  background: url(https://i.imgur.com/FFuyZFm.jpg);
+  background-size: cover;
+  background-position: center;
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 80px;
+  font-family: 'Bree Serif', serif;
+  }
+li {
+  display: inline;
+  padding: 20px 30px 20px 30px;
+  font-size: 15px;
+}
+ul {
+  background: rgba(0,0,0,.4);
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+}
+a {
+  color: white;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 65px;
+  }
+  li {
+    display: inline-block;
+  }
+}
+body {
+  margin: 0 auto;
+  background: black
+  background-position: center;
+  background-size: cover;
+}
+div {
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 40px 0px 40px;
+  border-radius: 12px;
+}
+h2 {
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  margin: 60px 40px 0px 40px;}
+p {
+  color: white;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 1);
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1),rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+  font-size: 20px;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.BeAtOne{
+  background-image: url("https://i.imgur.com/001c9Bt.jpg");
+  background-position: center;
+}
+.Alchemist{
+  background-image: url("https://i.imgur.com/FK1MLTO.jpg");
+  background-position: center;
+}
+.LasIguanas{
+  background-image: url("https://i.imgur.com/SGFcvG2.jpg");
+  background-position: center;
+}
+.Hedley {
+  background-image: url("https://i.imgur.com/gGI6pc3.jpg");
+  background-position: center;
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 15px;
+  }
+}

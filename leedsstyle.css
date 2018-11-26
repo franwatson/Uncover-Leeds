@@ -33,9 +33,29 @@ ul {
 a {
   color: white;
 }
+h2 {
+  color: white;
+  font-size: 30px;
+  padding: 40px
+}
+img {
+  padding: 40px;
+  position: center;
+}
+p {
+  color: white;
+  font-size: 20px;
+  padding: 40px;
+}
+.about {
+  border: solid;
+  border-color: white;
+  padding: 10px;
+  max-width: 1000px;
+}
 @media (max-width: 800px) {
   h1 {
-    font-size: 65px
+    font-size: 65px;
   }
   li {
     display: inline-block;
