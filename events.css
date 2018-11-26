@@ -1,11 +1,11 @@
 
 body {
   margin: 0 auto;
-  background-color: black;
+  background-color: red;
 }
 header {
   text-align: center;
-  background: url(https://i.imgur.com/FFuyZFm.jpg);
+  background: url("./pic1.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -33,11 +33,11 @@ ul {
 }
 a {
   color: white;
-}
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
 
-.leedsHeadline{
-  text-align: center;
-  color: white;
 }
 @media (max-width: 800px) {
   h1 {
@@ -47,17 +47,37 @@ a {
     display: inline-block;
   }
 }
+h3 {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Bree Serif', serif;
+  }
+  .banner {
+    text-align: center;
+    background-color: orange;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  .formgroup {
+    margin: 10px auto;
+    padding: 0;
+  }
 h4 {
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   color: white;
   margin: 0 auto;
   padding: 10px;
   font-family: 'Bree Serif', serif;
   }
   p {
-    font-size: 15px;
-    text-align: left;
+    font-size: 5em;
+    text-align: center;
     color: white;
     margin: 0 auto;
     padding: 10px;
@@ -90,7 +110,7 @@ h4 {
 
 .border {
     border-style: dashed;
-    border-color: #000;
+    border-color: white;
     border-width: 2px 5px 4px 5px;
 }
 
@@ -99,12 +119,25 @@ h4 {
   width: 500px;
 }
 
-.row {
-  background-color: ;
+.thumbnail
+{ background:#383838
+ !important;
+
 }
 
+
 .jumbotron{
-  display: inline-block;
-  width:100%;
-  background-color:#696969;
+  width:50%;
+  height:50%;
+  background:black
+  align: center;
+}
+
+.navbar-navbar-inverse{
+  text-align: center;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  padding: 0px;
 }
