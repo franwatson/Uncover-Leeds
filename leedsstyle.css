@@ -4,35 +4,13 @@ body {
 }
 header {
   text-align: center;
+  background: url(https://i.imgur.com/FFuyZFm.jpg);
   background-size: cover;
   background-position: center;
 }
 a {
   color: white;
-  text-align: left;
-  margin: 0 auto;
-  padding: 10px;
-  font-family: 'Bree Serif', serif;
 }
-
-  .banner {
-    text-align: center;
-    background-color: orange;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    padding: 0px;
-  }
-
-  .navbar-navbar-inverse{
-    text-align: center;
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    padding: 0px;
-  }
-
 h1 {
   position: relative;
   text-align: center;
@@ -42,13 +20,10 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 100px;
   font-weight: lighter;
-    margin: 0 auto;
-  background-image: "leedsmarket.jpg";
   }
-  li {
-    padding: 20px 30px 20px 30px;
-    font-size: 15px;
-    display: inline;
+li {padding: 20px 30px 20px 30px;
+    font-size: 30px;
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     border-right: 4px solid #000000;
@@ -60,101 +35,55 @@ ul {
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
 }
-
-.carousel {
-  background-position: center;
-  background-size: center;
-}
-
-
-.leedsHeadline{
-  text-align: center;
+a {
   color: white;
+}
+h2 {
+  color: white;
+  font-size: 40px;
+  padding-right: 0px 0px 0px 40px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+p {
+  color: white;
+  font-size: 25px;
+  padding: 0px 40px 0px 40px;
+  font-family: 'Playfair Display', serif;
+  max-width: 1000px;
+  text-align: center;
+}
+img {
+  border: 7px solid white;
+  margin: 40px;
+  border-radius: 20px;
+  }
+td {
+  padding: 20px;
+  align-items: center;
 }
 @media (max-width: 800px) {
   h1 {
-    font-size: 65px
+    font-size: 65px;
   }
   li {
     display: inline-block;
   }
-}
-h4 {
-  font-size: 20px;
-  text-align: left;
-  color: white;
-  margin: 0 auto;
-  padding: 10px;
-  font-family: 'Bree Serif', serif;
+  h2 {
+    font-size: 30px;
+  }
+  td {
+    padding: 10px;
   }
   p {
-    font-size: 5em;
-    text-align: center;
-    color: white;
-    margin: 0 auto;
-    padding: 10px;
-    font-family: 'Bree Serif', serif;
-    }
-.button {
-    background-color: #f44336; /* Red */
-    border: none;
-    border-radius: 12px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 0 10px 0 10px;
-}
-
-.button2 {
-    background-color: #f44336; /* Red */
-    border: none;
-    border-radius: 12px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-.border {
-    border-style: dashed;
-    border-color: white;
-    border-width: 2px 5px 4px 5px;
-}
-
-.size-image{
-  height: 400px;
-  width: 500px;
-}
-
-.row {
-  background-color: ;
-}
-
-.jumbotron{
-  display: inline-block;
-  width:100%;
-  background-color:#696969;
-}
-
-h3 {
-  font-size: 15px;
-  text-align: center;
-  color: white;
-  margin: 0 auto;
-  padding: 10px;
-  font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    max-width:800px;
   }
-  .thumbnail
-  { background:#383838
-   !important;
-
+  table {
+    max-width: 800px;
   }
-  .formgroup {
-    margin: 10px auto;
-    padding: 0;
+  img {
+    width:300px;
+    height:auto;
   }
+}
