@@ -12,17 +12,23 @@ a {
   color: white;
 }
 h1 {
-  font-size: 100px;
-  text-align: center;
-  color: white;
-  margin: 0 auto;
-  padding: 80px;
-  font-family: 'Bree Serif', serif;
+  position: relative;
+text-align: center;
+color: white;
+margin: 0 auto;
+padding: 20px;
+font-family: 'Raleway', sans-serif;
+font-size: 100px;
+font-weight: lighter;
   }
 li {
-  display: inline;
   padding: 20px 30px 20px 30px;
-  font-size: 15px;
+    font-size: 30px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    border-right: 4px solid #000000;
+    border-right-color: white;
 }
 ul {
   background: rgba(0,0,0,.4);
@@ -40,6 +46,12 @@ a {
   li {
     display: inline-block;
   }
+  h2 {
+  font-size: 20px;
+}
+p {
+  font-size: 15px;
+}
 }
 body {
   margin: 0 auto;
@@ -55,13 +67,14 @@ div {
   border-radius: 12px;
 }
 h2 {
+  font-family: 'Playfair Display', serif;
   text-align: center;
-  font-size: 75px;
+  font-size: 40px;
   color: white;
   margin: 60px 40px 0px 40px;}
 p {
   color: white;
-  font-size: 30px;
+  font-family: 'Playfair Display', serif;
   background: rgba(0, 0, 0, 1);
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
@@ -80,7 +93,8 @@ p {
 
 small {
   opacity: 0;
-  font-size: 20px;
+  font-size: 15px;
+  font-family: 'Playfair Display', serif;
 }
 
 .show-description p {
@@ -94,33 +108,43 @@ small {
 .BeAtOne{
   background-image: url("https://i.imgur.com/001c9Bt.jpg");
   background-position: center;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 40px;
 }
 .Alchemist{
   background-image: url("https://i.imgur.com/FK1MLTO.jpg");
   background-position: center;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 40px;
 }
 .LasIguanas{
   background-image: url("https://i.imgur.com/SGFcvG2.jpg");
   background-position: center;
+  max-width: 1000px;
+  margin:auto;
+  margin-bottom: 40px;
 }
 .Hedley {
   background-image: url("https://i.imgur.com/gGI6pc3.jpg");
   background-position: center;
+  max-width: 1000px;
+  margin:auto;
+  margin-bottom: 40px;
 }
 .price {
   float: right;
 }
 @media (max-width: 500px) {
   h2 {
-    font-size: 40px;
+    font-size: 20px;
     margin-top: 20px;
     line-height: 40px;
   }
   div {
     margin: 20px 12px 0 12px;
-  }
-  p {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 24px;
   }
   small {
