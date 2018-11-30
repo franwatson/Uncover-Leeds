@@ -76,6 +76,7 @@ style{
   left: 5px;
   bottom: 5px;
   right: 5px;
+  text-align: center;
 }
 
 #content .box .text:hover {
@@ -85,9 +86,22 @@ style{
 #content .box .text:hover:after {
   content: attr(data-hover);
   font-size: 15px;
-  font-weight: 550;
+  font-weight: 400;
   color: white;
 }
 
-#nav{
+p {
+  color: white;
+  border-bottom: 1px solid #efefef;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 260px;}
+.title {
+  float: left;
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;}
+.submit {
+  text-align: center;
+  font-size: 5px;
 }
