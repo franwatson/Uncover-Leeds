@@ -5,9 +5,11 @@
  <link href='daysout.css' rel='stylesheet'>
   <meta name="viewport" content="width=device-width,
    initial-scale=1.0">
+  <script src="js/jquery-3.2.1.min.js"></script>
   <title>Days Out</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cabin|Inconsolata|Nunito|Nunito+Sans|Pacifico|Quicksand|Raleway|Rubik|VT323" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100|Poppins|Ubuntu" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -25,15 +27,31 @@
 
 <h2>Days Out</h2>
 <div class="Armouries">
- <h3>Royal Armouries</h3>
-  <p>About royal armouries</p>
+  <p>Royal Armouries <br />
+    <small> Located at Leeds Dock, a short walk from the train station, includes five floors of incredible displays. See arms and armour from around the world with galleries such as Oriental gallery to the Swords of Middle Earth.
+  The Leeds Royal Armoury will keep you busy all day! Opening times 10am - 5pm</small> <br />
+    <button>Like</button>
+  </p>
 </div>
 <div class="Golf">
-<h4>Junk Yard Golf Club</h4>
-  <p> about golf place with images</p>
+  <p> Junk Yard Golf Club <br />
+    <small>The Junk Yard is the home to crazy golf and awesome cocktails. The bizarre 9 hole courses includes Gary, Pablo and Bozo! Think UV garage, circus freaks and jungle bathtubs while drinking crazy cocktails on the go. Remember to book and get ready to play!  </small> <br />
+    <button>Like</button>
+  </p>
 </div>
 <div class="Markets">
-<h5>Christmas Markets</h5>
-  <p> about the market blah blah</p>
+  <p> Christmas Markets <br />
+    <small>A little part of Germany in the Leeds Christmas Makrets. Millenium Square is transformed into festive fun with stalls including handcrafted toys, jewellery and festive decorations. But we can't forget about the most important part, the FOOD! Alp Chalet Bavarian styled eatery, the Kuh Stall and the Ski Hutte bar offer delicious choice of German food and drink. Open from 9th November.</small> <br />
+    <button>Like</button>
+  </p>
 </div>
+<script>
+$('div').on('click', function() {
+  $(this).toggleClass('show-description');
+});
+</script>
+<script>$("button").on("click", function() {
+            alert("Thanks for liking our page!")
+          });
+          </script>
 </body>
