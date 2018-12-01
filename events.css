@@ -1,29 +1,58 @@
-
 body {
   margin: 0 auto;
-  background-color: red;
+  background-color: black;
 }
 header {
   text-align: center;
-  background: url("./pic1.jpg");
   background-size: cover;
   background-position: center;
 }
 a {
   color: white;
+  text-align: left;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Bree Serif', serif;
 }
+
+  .banner {
+    text-align: center;
+    background-color: orange;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .navbar-navbar-inverse{
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
 h1 {
-  font-size: 100px;
+  position: relative;
   text-align: center;
   color: white;
   margin: 0 auto;
-  padding: 80px;
-  font-family: 'Bree Serif', serif;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  font-weight: lighter;
+    margin: 0 auto;
+  background-image: "leedsmarket.jpg";
   }
-li {
-  display: inline;
-  padding: 20px 30px 20px 30px;
-  font-size: 15px;
+  li {
+    padding: 20px 30px 20px 30px;
+    font-size: 15px;
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    border-right: 4px solid #000000;
+    border-right-color: white;
 }
 ul {
   background: rgba(0,0,0,.4);
@@ -31,13 +60,16 @@ ul {
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
 }
-a {
-  color: white;
-    text-align: left;
-    margin: 0 auto;
-    padding: 10px;
-    font-family: 'Bree Serif', serif;
 
+.carousel {
+  background-position: center;
+  background-size: center;
+}
+
+
+.leedsHeadline{
+  text-align: center;
+  color: white;
 }
 @media (max-width: 800px) {
   h1 {
@@ -47,29 +79,9 @@ a {
     display: inline-block;
   }
 }
-h3 {
-  font-size: 15px;
-  text-align: center;
-  color: white;
-  margin: 0 auto;
-  padding: 10px;
-  font-family: 'Bree Serif', serif;
-  }
-  .banner {
-    text-align: center;
-    background-color: orange;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    padding: 0px;
-  }
-  .formgroup {
-    margin: 10px auto;
-    padding: 0;
-  }
 h4 {
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   color: white;
   margin: 0 auto;
   padding: 10px;
@@ -79,7 +91,7 @@ h4 {
     font-size: 5em;
     text-align: center;
     color: white;
-    margin: 0 auto;
+    margin: 30 auto;
     padding: 10px;
     font-family: 'Bree Serif', serif;
     }
@@ -92,8 +104,8 @@ h4 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 0 10px 0 10px;
+    font-size: 45px;
+    margin: 10px 10px 14px 10px;
 }
 
 .button2 {
@@ -107,37 +119,64 @@ h4 {
     display: inline-block;
     font-size: 16px;
 }
-
 .border {
-    border-style: dashed;
+    border-style: dashed;`
     border-color: white;
-    border-width: 2px 5px 4px 5px;
+    border-width: 8px 8px 8px 8px;
 }
-
 .size-image{
   height: 400px;
   width: 500px;
 }
 
-.thumbnail
-{ background:#383838
- !important;
-
+.row {
+  background-color: ;
 }
-
 
 .jumbotron{
-  width:50%;
-  height:50%;
-  background:black
-  align: center;
+  display: inline-block;
+  width:100%;
+  background-color: black;
 }
 
-.navbar-navbar-inverse{
-  text-align: center;
-  background-color: black;
-  background-size: cover;
-  background-position: center;
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 30px;
+  text-align: left;
   margin: 0 auto;
-  padding: 0px;
-}
+  padding: 10px;
+  font-family: 'Bree Serif', serif;
+  }
+  .rainbow2 {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 150px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+    }
+h3 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Bree Serif', serif;
+  }
+  .thumbnail
+  { background:#383838
+   !important;
+
+  }
+  .formgroup {
+    margin: 10px auto;
+    padding: 0;
+  }
