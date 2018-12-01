@@ -24,44 +24,42 @@ h2 {
   color: white;
   margin: 0 auto;
   padding: 30px;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: lighter;
+  font-family: 'Lato', sans-serif;
   }
 .Armouries {
-  font-size: 60px;
+  font-size: 55px;
   text-align: center;
   color: white;
   margin: 20 auto;
   height: 400px;
-  padding: 100px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: lighter;
-  background-image: url(https://www.goyorkshire.com/app/cache/images/1239837_10153256400160370_1436587199_n-1466603587-iopts-1000x600-cropped-scaled.jpg);
+  background-image: url("https://www.goyorkshire.com/app/cache/images/1239837_10153256400160370_1436587199_n-1466603587-iopts-1000x600-cropped-scaled.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 100px;
+  background-color:
     }
 .Golf {
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
     color: white;
     margin: 20 auto;
-    padding: 100px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: lighter;
     background-image: url("http://leedsbars.co.uk/wp-content/uploads/2018/08/171212_junkyardgolf_oxford_040.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
     margin-bottom: 100px;
+
     }
 .Markets {
-      font-size: 60px;
+      font-size: 55px;
       text-align: center;
       color: white;
       margin: 20 auto;
-      padding: 100px;
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Lato', sans-serif;
       font-weight: lighter;
       background-image: url("http://leedsbars.co.uk/wp-content/uploads/2017/05/1383831_575031202544080_1311217407_n.jpg");
       background-size: cover;
@@ -85,7 +83,54 @@ h2 {
     background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
     background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   }
+  p {
+    background: rgba(0,0,0,.4);
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    position: absolute;
+    bottom: 0;
+    line-height: 48px;
+    width: 100%;
+    margin: 0;
+    height: 20px;
+    transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+  }
+  small {
+    font-size: 20px;
+    opacity: 0;
+    padding: 20px;
+    line-height: 0.5pt;
+    display: inline;
+  }
+  div {
+    position: relative;
+  }
   a {
     color: white;
   }
+  button {
+    font-size: 16px;
+    background-color: black;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    opacity: 0;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+
+  .show-description p {
+  height: 130px;
+}
+
+
+.show-description small {
+  opacity: 1;
+}
+.show-description button {
+  opacity: 1;
+}
+}
   @media (max-width: 800px) {
