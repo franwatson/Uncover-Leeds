@@ -49,13 +49,10 @@ a {
   h2 {
   font-size: 20px;
 }
-p {
-  font-size: 15px;
-}
 }
 body {
   margin: 0 auto;
-  background: black
+  background: black;
   background-position: center;
   background-size: cover;
 }
@@ -136,7 +133,7 @@ small {
 .price {
   float: right;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   h2 {
     font-size: 20px;
     margin-top: 20px;
@@ -147,7 +144,6 @@ small {
     font-size: 15px;
     line-height: 24px;
   }
-  small {
-    font-size: 15px;
-  }
+  .show-description p {
+    height: 300px;
 }
