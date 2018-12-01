@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='css/bootstrap.css' rel='stylesheet'>
+ <link href='daysout.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width,
+   initial-scale=1.0">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <title>Days Out</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Inconsolata|Nunito|Nunito+Sans|Pacifico|Quicksand|Raleway|Rubik|VT323" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100|Poppins|Ubuntu" rel="stylesheet">
+</head>
+<body>
+  <header>
+ <h1>Uncover Leeds</h1>
+ <ul>
+   <li><a href="uncoverleeds.html">About Leeds</a></li>
+   <li><a href="nights.html">Nights Out</a></li>
+   <li><a href="food-places.html">Food and Drink</a></li>
+   <li><a href="daysout.html">Days Out</a></li>
+   <li><a href="events.html">Events</a></li>
+   <li><a href="contactus.html">Contact</a></li>
+ </ul>
+ <script src="js/jquery-3.3.1.min.js"></script>
+</header>
+
+<h2>Days Out</h2>
+<div class="Armouries">
+  <p>Royal Armouries <br />
+    <small> Located at Leeds Dock, a short walk from the train station, includes five floors of incredible displays. See arms and armour from around the world with galleries such as Oriental gallery to the Swords of Middle Earth.
+  The Leeds Royal Armoury will keep you busy all day! Opening times 10am - 5pm</small> <br />
+    <button>Like</button>
+  </p>
+</div>
+<div class="Golf">
+  <p> Junk Yard Golf Club <br />
+    <small>The Junk Yard is the home to crazy golf and awesome cocktails. The bizarre 9 hole courses includes Gary, Pablo and Bozo! Think UV garage, circus freaks and jungle bathtubs while drinking crazy cocktails on the go. Remember to book and get ready to play!  </small> <br />
+    <button>Like</button>
+  </p>
+</div>
+<div class="Markets">
+  <p> Christmas Markets <br />
+    <small>A little part of Germany in the Leeds Christmas Makrets. Millenium Square is transformed into festive fun with stalls including handcrafted toys, jewellery and festive decorations. But we can't forget about the most important part, the FOOD! Alp Chalet Bavarian styled eatery, the Kuh Stall and the Ski Hutte bar offer delicious choice of German food and drink. Open from 9th November.</small> <br />
+    <button>Like</button>
+  </p>
+</div>
+<script>
+$('div').on('click', function() {
+  $(this).toggleClass('show-description');
+});
+</script>
+<script>$("button").on("click", function() {
+            alert("Thanks for liking our page!")
+          });
+          </script>
+</body>
