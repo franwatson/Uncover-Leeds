@@ -69,6 +69,13 @@ h2 {
   font-size: 40px;
   color: white;
   margin: 60px 40px 0px 40px;}
+  h3 {
+  text-align: center;
+  color: white;
+  margin: 20px 0 50px 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  }
 p {
   color: white;
   font-family: 'Playfair Display', serif;
@@ -135,9 +142,12 @@ small {
 }
 @media (max-width: 800px) {
   h2 {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 20px;
     line-height: 40px;
+  }
+  h3 {
+    font-size: 15px;
   }
   div {
     margin: 20px 12px 0 12px;
