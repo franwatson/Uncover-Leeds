@@ -4,15 +4,12 @@ body {
 }
 header {
   text-align: center;
+    background: url(https://i.imgur.com/FFuyZFm.jpg);
   background-size: cover;
   background-position: center;
 }
 a {
   color: white;
-  text-align: left;
-  margin: 0 auto;
-  padding: 10px;
-  font-family: 'Bree Serif', serif;
 }
 
   .banner {
@@ -26,11 +23,7 @@ a {
 
   .navbar-navbar-inverse{
     text-align: center;
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    padding: 0px;
+    float:right;
   }
 
 h1 {
@@ -42,13 +35,12 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 100px;
   font-weight: lighter;
-    margin: 0 auto;
   background-image: "leedsmarket.jpg";
   }
   li {
     padding: 20px 30px 20px 30px;
-    font-size: 15px;
-    display: inline;
+    font-size: 30px;
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     border-right: 4px solid #000000;
@@ -60,16 +52,22 @@ ul {
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
 }
+h2 {
+  color: white;
+  text-align: center;
+}
 
 .carousel {
   background-position: center;
-  background-size: center;
 }
 
 
 .leedsHeadline{
   text-align: center;
   color: white;
+}
+div {
+  text-align: center;
 }
 @media (max-width: 800px) {
   h1 {
@@ -127,10 +125,6 @@ h4 {
 .size-image{
   height: 400px;
   width: 500px;
-}
-
-.row {
-  background-color: ;
 }
 
 .jumbotron{

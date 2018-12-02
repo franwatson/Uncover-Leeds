@@ -89,7 +89,10 @@ style{
   font-weight: 400;
   color: white;
 }
-
+.navbar-navbar-inverse{
+  text-align: center;
+  float:right;
+}
 p {
   color: white;
   border-bottom: 1px solid #efefef;

@@ -157,3 +157,6 @@ small {
   .show-description p {
     height: 300px;
 }
+.navbar-navbar-inverse{
+  text-align: center;
+  float:right;

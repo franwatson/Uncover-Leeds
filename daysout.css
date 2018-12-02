@@ -121,7 +121,10 @@ h2 {
     cursor: pointer;
     color: white;
   }
-
+  .navbar-navbar-inverse{
+    text-align: center;
+    float:right;
+  }
   .show-description p {
   height: 150px;
 }
