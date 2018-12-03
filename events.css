@@ -10,10 +10,6 @@ header {
 }
 a {
   color: white;
-  text-align: left;
-  margin: 0 auto;
-  padding: 10px;
-  font-family: 'Bree Serif', serif;
 }
   .banner {
     text-align: center;
@@ -32,29 +28,6 @@ a {
     padding: 20px 30px 20px 30px;
     font-size: 30px;
     display: inline-block;
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    padding: 0px;
-  }
-
-h1 {
-  position: relative;
-  text-align: center;
-  color: white;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 100px;
-  font-weight: lighter;
-    margin: 0 auto;
-  background-image: "leedsmarket.jpg";
-  }
-  li {
-    padding: 20px 30px 20px 30px;
-    font-size: 15px;
-    display: inline;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     border-right: 4px solid #000000;
@@ -82,17 +55,6 @@ h2 {
 }
 div {
   text-align: center;
-
-.carousel {
-  background-position: center;
-  background-size: center;
-}
-
-
-.leedsHeadline{
-  text-align: center;
-  color: white;
-
 }
 @media (max-width: 800px) {
   h1 {
@@ -119,7 +81,7 @@ h4 {
     font-family: 'Lato', sans-serif;
     }
 .button {
-    background-color: #f44336;
+    background-color: #f44336; /* Red */
     border: none;
     border-radius: 12px;
     color: white;
@@ -132,7 +94,7 @@ h4 {
 }
 
 .button2 {
-    background-color: #f44336;
+    background-color: #f44336; /* Red */
     border: none;
     border-radius: 12px;
     color: white;
@@ -152,10 +114,6 @@ h4 {
   width: 500px;
 }
 
-.row {
-  background-color: ;
-}
-
 .jumbotron{
   display: inline-block;
   width:100%;
@@ -172,7 +130,7 @@ h4 {
   text-align: left;
   margin: 0 auto;
   padding: 10px;
-  font-family: 'Bree Serif', serif;
+  ;
   }
   .rainbow2 {
     background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
@@ -188,11 +146,6 @@ h4 {
       text-align: center;
       padding: 20px;
       font-size: 100px;
-    font-size: 150px;
-    text-align: left;
-    margin: 0 auto;
-    padding: 10px;
-    font-family: 'Bree Serif', serif;
     }
 h3 {
   font-size: 30px;
@@ -201,7 +154,6 @@ h3 {
   margin: 0 auto;
   padding: 10px;
   font-family: 'Lato', sans-serif;
-  font-family: 'Bree Serif', serif;
   }
   .thumbnail
   { background:#383838
