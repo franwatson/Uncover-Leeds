@@ -4,13 +4,24 @@ body {
 }
 header {
   text-align: center;
+<<<<<<< HEAD
     background: url(https://i.imgur.com/FFuyZFm.jpg);
+=======
+>>>>>>> 77d8ba6ce9649f8588e34e82378ff193ac8e775a
   background-size: cover;
   background-position: center;
 }
 a {
   color: white;
+  text-align: left;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Bree Serif', serif;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 77d8ba6ce9649f8588e34e82378ff193ac8e775a
   .banner {
     text-align: center;
     background-color: orange;
@@ -22,12 +33,38 @@ a {
 
   .navbar-navbar-inverse{
     text-align: center;
+<<<<<<< HEAD
     float:right;
   }
   li {
     padding: 20px 30px 20px 30px;
     font-size: 30px;
     display: inline-block;
+=======
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+h1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  font-weight: lighter;
+    margin: 0 auto;
+  background-image: "leedsmarket.jpg";
+  }
+  li {
+    padding: 20px 30px 20px 30px;
+    font-size: 15px;
+    display: inline;
+>>>>>>> 77d8ba6ce9649f8588e34e82378ff193ac8e775a
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     border-right: 4px solid #000000;
@@ -39,6 +76,7 @@ ul {
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
 }
+<<<<<<< HEAD
 h2 {
   color: white;
   text-align: center;
@@ -55,6 +93,18 @@ h2 {
 }
 div {
   text-align: center;
+=======
+
+.carousel {
+  background-position: center;
+  background-size: center;
+}
+
+
+.leedsHeadline{
+  text-align: center;
+  color: white;
+>>>>>>> 77d8ba6ce9649f8588e34e82378ff193ac8e775a
 }
 @media (max-width: 800px) {
   h1 {
@@ -114,6 +164,13 @@ h4 {
   width: 500px;
 }
 
+<<<<<<< HEAD
+=======
+.row {
+  background-color: ;
+}
+
+>>>>>>> 77d8ba6ce9649f8588e34e82378ff193ac8e775a
 .jumbotron{
   display: inline-block;
   width:100%;
@@ -130,7 +187,11 @@ h4 {
   text-align: left;
   margin: 0 auto;
   padding: 10px;
+<<<<<<< HEAD
   ;
+=======
+  font-family: 'Bree Serif', serif;
+>>>>>>> 77d8ba6ce9649f8588e34e82378ff193ac8e775a
   }
   .rainbow2 {
     background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
@@ -138,6 +199,7 @@ h4 {
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
+<<<<<<< HEAD
     font-size:
     text-align: left;
     margin: 0 auto;
@@ -146,6 +208,13 @@ h4 {
       text-align: center;
       padding: 20px;
       font-size: 100px;
+=======
+    font-size: 150px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+>>>>>>> 77d8ba6ce9649f8588e34e82378ff193ac8e775a
     }
 h3 {
   font-size: 30px;
@@ -153,7 +222,11 @@ h3 {
   color: white;
   margin: 0 auto;
   padding: 10px;
+<<<<<<< HEAD
   font-family: 'Lato', sans-serif;
+=======
+  font-family: 'Bree Serif', serif;
+>>>>>>> 77d8ba6ce9649f8588e34e82378ff193ac8e775a
   }
   .thumbnail
   { background:#383838
