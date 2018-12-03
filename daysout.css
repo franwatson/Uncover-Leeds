@@ -16,7 +16,6 @@ h1 {
   padding: 80px;
   font-family: 'Raleway', sans-serif;
   font-size: 100px;
-  font-weight: lighter;
   }
 h2 {
   font-size: 60px;
@@ -38,7 +37,10 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 100px;
-  background-color:
+  background-position: center;
+  max-width: 1000px;
+  margin:auto;
+  margin-bottom: 40px;
     }
 .Golf {
     font-size: 55px;
@@ -52,7 +54,10 @@ h2 {
     background-repeat: no-repeat;
     height: 400px;
     margin-bottom: 100px;
-
+    background-position: center;
+    max-width: 1000px;
+    margin:auto;
+    margin-bottom: 40px;
     }
 .Markets {
       font-size: 55px;
@@ -67,6 +72,10 @@ h2 {
       height: 400px;
       background-position: center;
       margin-bottom: 100px
+      background-position: center;
+      max-width: 1000px;
+      margin:auto;
+      margin-bottom: 40px;
       }
   li {
     padding: 20px 30px 20px 30px;
@@ -111,7 +120,7 @@ h2 {
   a {
     color: white;
   }
-  button {
+  .like {
     font-size: 16px;
     background-color: black;
     border: 2px solid #ffffff;
@@ -126,7 +135,7 @@ h2 {
     float:right;
   }
   .show-description p {
-  height: 150px;
+  height: 220px;
 }
 
 

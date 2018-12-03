@@ -29,33 +29,34 @@ li {padding: 20px 30px 20px 30px;
     border-right: 4px solid #000000;
     border-right-color: white;
 }
+.navbar-navbar-inverse{
+  text-align: center;
+  float:right;
+}
 ul {
   background: rgba(0,0,0,.4);
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
 }
-.navbar-navbar-inverse{
-  text-align: center;
-  float:right;
-}
 a {
   color: white;
 }
 h2 {
   color: white;
-  font-size: 40px;
+  font-size: 60px;
   padding-right: 0px 0px 0px 40px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 p {
   color: white;
-  font-size: 25px;
+  font-size: 35px;
   padding: 0px 40px 0px 40px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
   max-width: 1000px;
   text-align: center;
+  font-weight: lighter;
 }
 img {
   border: 7px solid white;

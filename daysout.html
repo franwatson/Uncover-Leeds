@@ -23,9 +23,9 @@
    <li><a href="daysout.html">Days Out</a></li>
    <li><a href="events.html">Events</a></li>
    <li><a href="contactus.html">Contact</a></li>
-   <form class="navbar-form navbar-right" action="contactus.html">
+   <li><form class="navbar-form navbar-right" action="contactus.html">
      <button type="submit" class="btn btn-default subscribe-btn">Subscribe</button>
-   </form>
+   </form></li>
  </ul>
 </header>
 
@@ -34,19 +34,19 @@
   <p>Royal Armouries <br />
     <small> Located at Leeds Dock, a short walk from the train station, includes five floors of incredible displays. See arms and armour from around the world with galleries such as Oriental gallery to the Swords of Middle Earth.
   The Leeds Royal Armoury will keep you busy all day! Opening times 10am - 5pm</small> <br />
-    <button>Like</button>
+    <button class="like">Like</button>
   </p>
 </div>
 <div class="Golf">
   <p> Junk Yard Golf Club <br />
     <small>The Junk Yard is the home to crazy golf and awesome cocktails. The bizarre 9 hole courses includes Gary, Pablo and Bozo! Think UV garage, circus freaks and jungle bathtubs while drinking crazy cocktails on the go. Remember to book and get ready to play!  </small> <br />
-    <button>Like</button>
+    <button class="like">Like</button>
   </p>
 </div>
 <div class="Markets">
   <p> Christmas Markets <br />
     <small>A little part of Germany in the Leeds Christmas Makrets. Millenium Square is transformed into festive fun with stalls including handcrafted toys, jewellery and festive decorations. But we can't forget about the most important part, the FOOD! Alp Chalet Bavarian styled eatery, the Kuh Stall and the Ski Hutte bar offer delicious choice of German food and drink. Open from 9th November.</small> <br />
-    <button>Like</button>
+    <button class="like">Like</button>
   </p>
 </div>
 <script>
@@ -54,7 +54,7 @@
     $(this).toggleClass('show-description');
 });
 </script>
-<script>$("button").on("click", function() {
+<script>$(".like").on("click", function() {
             alert("Thanks for liking our page!")
           });
           </script>

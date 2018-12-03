@@ -33,7 +33,7 @@ font-weight: lighter;
   padding: 20px 30px 20px 30px;
     font-size: 30px;
     display: inline-block;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: lighter;
     border-right: 4px solid #000000;
     border-right-color: white;
@@ -77,6 +77,6 @@ input {
 
 body {
   text-align: center;
-  font-family: 'Playfair Display', serif;
+font-family: 'Lato', sans-serif;
   color: white;
 }
