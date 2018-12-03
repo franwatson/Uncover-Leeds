@@ -22,7 +22,8 @@ h1 {
   font-size: 100px;
   font-weight: lighter;
   }
-li {padding: 20px 30px 20px 30px;
+li {
+  padding: 20px 30px 20px 30px;
     font-size: 30px;
     display: inline-block;
     font-family: 'Raleway', sans-serif;
@@ -35,7 +36,6 @@ li {padding: 20px 30px 20px 30px;
   float:right;
 }
 ul {
-  text-align: center;
   background: rgba(0,0,0,.4);
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));

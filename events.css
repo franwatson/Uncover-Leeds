@@ -11,7 +11,6 @@ header {
 a {
   color: white;
 }
-
   .banner {
     text-align: center;
     background-color: orange;
@@ -24,18 +23,6 @@ a {
   .navbar-navbar-inverse{
     text-align: center;
     float:right;
-  }
-
-h1 {
-  position: relative;
-  text-align: center;
-  color: white;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 100px;
-  font-weight: lighter;
-  background-image: "leedsmarket.jpg";
   }
   li {
     padding: 20px 30px 20px 30px;
@@ -143,7 +130,7 @@ h4 {
   text-align: left;
   margin: 0 auto;
   padding: 10px;
-  font-family: 'Lato', sans-serif;
+  ;
   }
   .rainbow2 {
     background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
@@ -151,11 +138,14 @@ h4 {
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 150px;
+    font-size:
     text-align: left;
     margin: 0 auto;
-    padding: 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+      position: relative;
+      text-align: center;
+      padding: 20px;
+      font-size: 100px;
     }
 h3 {
   font-size: 30px;
